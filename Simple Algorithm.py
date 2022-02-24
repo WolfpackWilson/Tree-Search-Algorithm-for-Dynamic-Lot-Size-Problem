@@ -134,7 +134,8 @@ def term_check():
         decomp(act_lst.pop())
 
     # the list is empty, report the best result
-    print(f'STOP, P{"".join(str(i) for i in best.sigma)} is the optimal solution at ${g_opt}')
+    print(f'STOP, P{"".join(str(i) for i in best.sigma)} is the optimal solution at ${g_opt}.')
+    print('WARNING: The solution may be infeasible.')
 
 
 # step 3 - decomposition loop

@@ -157,9 +157,13 @@ def term_check():
         decomp(act_lst.pop())
 
     # the list is empty, report the best result
+    debug(DLINE + '\nStep 2 - Termination Check\n' + LINE)
+    debug('AL:', act_lst)
+    debug('STOP, the AL is empty.')
+
     if best:
         sln = ''.join(str(i) for i in best.sigma)
-        print(DLINE + f'\nThe optimal solution is P{sln} with cost ${g_opt}')
+        print(f'\nThe optimal solution is P{sln} with cost ${g_opt}.\n' + DLINE)
     else:
         print('No solution was reached.')
 

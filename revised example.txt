@@ -962,5 +962,11 @@ Created subproblem P36789.
 3.1) Property 1: 163 > 141?
 Infeasible. Go back to step 2.
 ==================================================
-The optimal solution is P1347 with cost $2416
+Step 2 - Termination Check
+--------------------------------------------------
+AL: []
+STOP, the AL is empty.
+
+The optimal solution is P1347 with cost $2416.
+==================================================
 
