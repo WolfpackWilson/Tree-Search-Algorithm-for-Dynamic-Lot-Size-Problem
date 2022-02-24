@@ -1,4 +1,4 @@
-# Tree Search Algoithm for Dynamic Lot Size Problem
+# Tree Search Algorithm for Dynamic Lot Size Problem
 This repository provides code for the tree search algorithms detailed in 
 _An Algorithm for the Dynamic Lot-Size Problem With Time-Varying Production 
 Capacity Constraints_ by Baker et al.
