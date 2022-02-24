@@ -25,7 +25,6 @@ DLINE = '=' * 50
 d_j, C_j, K, h = [None] * 4
 T, j, g_opt, act_lst = [None] * 4
 best = None
-f = None
 
 
 class Subproblem:
