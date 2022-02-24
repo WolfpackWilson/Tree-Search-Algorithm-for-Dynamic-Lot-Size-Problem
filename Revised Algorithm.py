@@ -92,7 +92,7 @@ class Subproblem:
 
 
 def debug(*args):
-    """Print string and write to file if DEBUG is enabled."""
+    """Print string if DEBUG is enabled."""
     print(*args) if DEBUG else None
         
 
@@ -135,7 +135,7 @@ def init():
     g_opt = 1e99
     act_lst = [P]
 
-    debug(f'Created subproblem {repr(P)} and added it to the AL.')
+    debug(f'Created subproblem {P} and added it to the AL.')
     debug(f'Set sigma=None, g(P)={P.g}, g*={g_opt}')
 
     # goto step 2
@@ -214,7 +214,7 @@ def decomp(P, t: int = None):
         decomp(P, 1)
 
     # step 3.4 - test domination with property 3
-    debug('3.4) Checking if the subproblem can be dominated.')
+    debug('3.4) Check if the subproblem can be dominated.')
 
     # generate the completions of the partial plan to test
     range_ = range(t+1, T+1)
